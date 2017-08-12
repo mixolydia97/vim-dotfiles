@@ -1,6 +1,9 @@
 set autoindent
 set mouse=a
 set number
+set nocompatible
+filetype plugin on
+syntax on
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
